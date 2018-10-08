@@ -26,7 +26,7 @@ synthesizer.synthesize(text, file_name: output)
 ```
 
 There is a executable command `text2mp3`. You can use as following.
-It is assumed to set AWS credentials in environmental variables.
+It is assumed to set AWS credentials in environmental variables as per the conventions of [aws-sdk-ruby](https://github.com/aws/aws-sdk-ruby).
 
 ```
 Usage:
